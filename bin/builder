@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+'use strict';
+
+const path = require('path');
+const runBuilder = require('../lib/runBuilder');
+
+var argv = process.argv;
+
+if (argv.length < 4) {
+  console.log('Example: loader views_dir base_dir [--no-debug]');
+  console.log('\tviews_dir: views folder');
+  console.log('\tbase_dir: project root folder');
+  console.log('');
+  console.log('e.g. loader ./views ./');
+  console.log('without debug file:');
+  console.log('e.g. loader ./views ./ --no-debug');
+  process.exit(1);
+}
+
+// app/views
+var viewsDir = path.join(process.cwd(), argv[2]);
+// app/
+var baseDir = path.join(process.cwd(), argv[3]);
+// no debug
+var noDebug = argv[4] === '--no-debug';
+
+runBuilder(viewsDir, baseDir, noDebug);

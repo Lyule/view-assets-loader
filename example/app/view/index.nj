@@ -1,0 +1,6 @@
+<h1> hellow world</h1>
+{{
+  Loader('/public/assets/index.css')
+    .css('/public/index.css')
+    .done() | safe
+}}

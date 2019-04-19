@@ -1,0 +1,1027 @@
+2019-04-19 14:09:51,963 ERROR 44365 [-/::1/-/9ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-session@5.10.1@koa-session/index.js:41:13)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 44365
+hostname: liwenqiang.local
+
+2019-04-19 14:10:12,081 ERROR 44386 [-/::1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.nj from 
+    at Map.resolve (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 44386
+hostname: liwenqiang.local
+
+2019-04-19 14:10:12,934 ERROR 44386 [-/::1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.nj from 
+    at Map.resolve (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 44386
+hostname: liwenqiang.local
+
+2019-04-19 14:10:13,850 ERROR 44386 [-/::1/-/0ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.nj from 
+    at Map.resolve (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 44386
+hostname: liwenqiang.local
+
+2019-04-19 14:16:13,066 ERROR 44809 [-/::1/-/8ms GET /] nodejs.ReferenceError: path is not defined
+    at Object.router.get (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/router.js:9:18)
+    at Object.callFn (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dta (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xframe (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xssProtection (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at nosniff (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at noopen (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at notAllow (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at csrf (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/csrf.js:22:14)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-session@5.10.1@koa-session/index.js:41:13)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-override@3.0.0@koa-override/index.js:13:70)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at bodyParser (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+pid: 44809
+hostname: liwenqiang.local
+
+2019-04-19 14:16:14,447 ERROR 44809 [-/::1/-/1ms GET /] nodejs.ReferenceError: path is not defined
+    at Object.router.get (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/router.js:9:18)
+    at Object.callFn (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dta (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xframe (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xssProtection (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at nosniff (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at noopen (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at notAllow (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at csrf (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/csrf.js:22:14)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-session@5.10.1@koa-session/index.js:41:13)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-override@3.0.0@koa-override/index.js:13:70)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at bodyParser (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+pid: 44809
+hostname: liwenqiang.local
+
+2019-04-19 14:16:48,493 ERROR 44861 [-/::1/-/9ms GET /] nodejs.ReferenceError: path is not defined
+    at Object.router.get (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/router.js:9:18)
+    at Object.callFn (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dta (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xframe (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xssProtection (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at nosniff (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at noopen (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at notAllow (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at csrf (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/csrf.js:22:14)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-session@5.10.1@koa-session/index.js:41:13)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-override@3.0.0@koa-override/index.js:13:70)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at bodyParser (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+pid: 44861
+hostname: liwenqiang.local
+
+2019-04-19 14:16:50,408 ERROR 44861 [-/::1/-/1ms GET /] nodejs.ReferenceError: path is not defined
+    at Object.router.get (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/router.js:9:18)
+    at Object.callFn (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dta (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xframe (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xssProtection (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at nosniff (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at noopen (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at notAllow (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at csrf (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/csrf.js:22:14)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-session@5.10.1@koa-session/index.js:41:13)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-override@3.0.0@koa-override/index.js:13:70)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at bodyParser (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+pid: 44861
+hostname: liwenqiang.local
+
+2019-04-19 14:17:04,360 ERROR 44882 [-/::1/-/8ms GET /] nodejs.ReferenceError: options is not defined
+    at new Loader (/Users/liwenqiang/Notes/git/view-assets-loader/loader.js:15:20)
+    at Object.router.get (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/router.js:9:15)
+    at Object.callFn (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dta (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xframe (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xssProtection (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at nosniff (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at noopen (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at notAllow (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at csrf (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/csrf.js:22:14)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-session@5.10.1@koa-session/index.js:41:13)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-override@3.0.0@koa-override/index.js:13:70)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at bodyParser (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+pid: 44882
+hostname: liwenqiang.local
+
+2019-04-19 14:17:05,961 ERROR 44882 [-/::1/-/1ms GET /] nodejs.ReferenceError: options is not defined
+    at new Loader (/Users/liwenqiang/Notes/git/view-assets-loader/loader.js:15:20)
+    at Object.router.get (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/router.js:9:15)
+    at Object.callFn (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dta (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xframe (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xssProtection (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at nosniff (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at noopen (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at notAllow (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at csrf (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/csrf.js:22:14)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-session@5.10.1@koa-session/index.js:41:13)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-override@3.0.0@koa-override/index.js:13:70)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at bodyParser (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+pid: 44882
+hostname: liwenqiang.local
+
+2019-04-19 14:17:39,562 ERROR 44882 [-/::1/-/1ms GET /] nodejs.ReferenceError: options is not defined
+    at new Loader (/Users/liwenqiang/Notes/git/view-assets-loader/loader.js:15:20)
+    at Object.router.get (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/router.js:9:15)
+    at Object.callFn (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dta (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xframe (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xssProtection (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at nosniff (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at noopen (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at notAllow (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at csrf (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/lib/middlewares/csrf.js:22:14)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-session@5.10.1@koa-session/index.js:41:13)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-override@3.0.0@koa-override/index.js:13:70)
+    at dispatch (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at bodyParser (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:86:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+pid: 44882
+hostname: liwenqiang.local
+
+2019-04-19 14:19:18,363 ERROR 44929 [-/::1/-/9ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 44929
+hostname: liwenqiang.local
+
+2019-04-19 14:19:19,410 ERROR 44929 [-/::1/-/3ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 44929
+hostname: liwenqiang.local
+
+2019-04-19 14:20:28,799 ERROR 44929 [-/::1/-/3ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 44929
+hostname: liwenqiang.local
+
+2019-04-19 14:20:29,599 ERROR 44929 [-/::1/-/2ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 44929
+hostname: liwenqiang.local
+
+2019-04-19 14:20:30,383 ERROR 44929 [-/::1/-/1ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 44929
+hostname: liwenqiang.local
+
+2019-04-19 14:21:22,092 ERROR 45042 [-/::1/-/33ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45042
+hostname: liwenqiang.local
+
+2019-04-19 14:21:22,827 ERROR 45042 [-/::1/-/3ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45042
+hostname: liwenqiang.local
+
+2019-04-19 14:22:31,212 ERROR 45078 [-/::1/-/21ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45078
+hostname: liwenqiang.local
+
+2019-04-19 14:23:07,753 ERROR 45113 [-/::1/-/21ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+  Error: Unable to call `the return value of (Loader)["css"]`, which is undefined or falsey
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45113
+hostname: liwenqiang.local
+
+2019-04-19 14:24:29,547 ERROR 45157 [-/::1/-/25ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, scandir '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/views'
+  Error: ENOENT: no such file or directory, scandir '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/views'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45157
+hostname: liwenqiang.local
+
+2019-04-19 14:24:30,665 ERROR 45157 [-/::1/-/4ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, scandir '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/views'
+  Error: ENOENT: no such file or directory, scandir '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/views'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45157
+hostname: liwenqiang.local
+
+2019-04-19 14:25:43,201 ERROR 45206 [-/::1/-/25ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/index.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/index.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45206
+hostname: liwenqiang.local
+
+2019-04-19 14:25:44,268 ERROR 45206 [-/::1/-/3ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/index.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/index.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45206
+hostname: liwenqiang.local
+
+2019-04-19 14:27:55,684 ERROR 45206 [-/::1/-/6ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/index.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/index.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45206
+hostname: liwenqiang.local
+
+2019-04-19 14:29:49,562 ERROR 45407 [-/::1/-/28ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/index.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/index.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45407
+hostname: liwenqiang.local
+
+2019-04-19 14:30:14,324 ERROR 45441 [-/::1/-/49ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/assets.json'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/assets.json'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45441
+hostname: liwenqiang.local
+
+2019-04-19 14:31:17,890 ERROR 45484 [-/::1/-/21ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, mkdir '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/app/public/assets'
+  Error: ENOENT: no such file or directory, mkdir '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/app/public/assets'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45484
+hostname: liwenqiang.local
+
+2019-04-19 14:31:21,452 ERROR 45484 [-/::1/-/5ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, mkdir '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/app/public/assets'
+  Error: ENOENT: no such file or directory, mkdir '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/app/public/assets'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45484
+hostname: liwenqiang.local
+
+2019-04-19 14:31:51,405 ERROR 45517 [-/::1/-/46ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/assets.json'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/assets.json'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45517
+hostname: liwenqiang.local
+
+2019-04-19 14:32:58,711 ERROR 45567 [-/::1/-/48ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/assets.json'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/assets.json'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45567
+hostname: liwenqiang.local
+
+2019-04-19 14:33:20,362 ERROR 45593 [-/::1/-/50ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  ReferenceError: prefix is not defined
+  ReferenceError: prefix is not defined
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45593
+hostname: liwenqiang.local
+
+2019-04-19 14:38:20,711 ERROR 45832 [-/::1/-/40ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/public/index.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/public/index.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 45832
+hostname: liwenqiang.local
+
+2019-04-19 14:42:33,771 ERROR 46103 [-/::1/-/47ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 46103
+hostname: liwenqiang.local
+
+2019-04-19 14:43:20,135 ERROR 46147 [-/::1/-/44ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 46147
+hostname: liwenqiang.local
+
+2019-04-19 14:43:20,749 ERROR 46147 [-/::1/-/6ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 46147
+hostname: liwenqiang.local
+
+2019-04-19 14:43:21,377 ERROR 46147 [-/::1/-/4ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 46147
+hostname: liwenqiang.local
+
+2019-04-19 14:47:44,900 ERROR 46309 [-/::1/-/46ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 46309
+hostname: liwenqiang.local
+
+2019-04-19 14:47:46,312 ERROR 46309 [-/::1/-/7ms GET /] nodejs.Template render error: (/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view/index.nj) [Line 2, Column 8]
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+  Error: ENOENT: no such file or directory, open '/Users/liwenqiang/Notes/git/view-assets-loader/example/app/public/assets/index.2587dd60.min.css'
+    at Object._prettifyError (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:36:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:567:19
+    at Template.root [as rootRenderFunc] (<anonymous>:18:3)
+    at Template.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:556:10)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:366:27
+    at createTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:315:9)
+    at handle (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:327:11)
+    at /Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:339:9
+    at next (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_nunjucks@3.2.0@nunjucks/src/environment.js:360:10)
+    at Promise (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>:null:null)
+    at NunjucksView.render (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/lib/context_view.js:70:23)
+
+name: "Template render error"
+pid: 46309
+hostname: liwenqiang.local
+

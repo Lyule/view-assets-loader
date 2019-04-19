@@ -1,0 +1,271 @@
+{
+  "keys": "/Users/liwenqiang/Notes/git/view-assets-loader/example/config/config.default.js",
+  "mini_assets": "/Users/liwenqiang/Notes/git/view-assets-loader/example/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/liwenqiang/Notes/git/view-assets-loader/example/config/config.default.js",
+    "mapping": {
+      ".nj": "/Users/liwenqiang/Notes/git/view-assets-loader/example/config/config.default.js"
+    },
+    "root": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
+  "nunjucks": {
+    "cache": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.local.js",
+    "autoescape": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "useSession": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "cookieName": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "sessionName": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "headerName": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "bodyName": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "queryName": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.local.js",
+      "maxAge": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "policy": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "checkAddress": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "dirs": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "queryField": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-schedule@3.6.1@egg-schedule/config/config.default.js",
+      "file": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-schedule@3.6.1@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-schedule@3.6.1@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "files": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "fastReady": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "env": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "name": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "proxy": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "maxProxyCount": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "protocolHeaders": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "ipHeaders": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "hostHeaders": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "version": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "description": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "main": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "test": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+    },
+    "keywords": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "author": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "license": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "egg-scripts": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "path": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "HOME": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "rundir": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "notFound": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "sitefile": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "middlewares": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "httpClient": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "encoding": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "formLimit": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "jsonLimit": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "strict": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "depth": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "parameterLimit": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "encoding": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "env": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "level": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "consoleLevel": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "outputJSON": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "buffer": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "appLogName": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "coreLogName": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "agentLogName": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "errorLogName": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "maxSockets": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "maxSockets": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "logging": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "serverTimeout": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "port": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+      "hostname": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js",
+    "responseTimeout": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/liwenqiang/Notes/git/view-assets-loader/example/node_modules/_egg@2.21.1@egg/config/config.default.js"
+}

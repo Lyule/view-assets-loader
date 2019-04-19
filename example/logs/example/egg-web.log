@@ -1,0 +1,471 @@
+2019-04-19 14:09:47,662 INFO 44365 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:09:47,698 INFO 44365 [egg-multipart] stream mode enable
+2019-04-19 14:09:47,752 INFO 44365 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:09:47,755 INFO 44365 [egg-security] use csrf middleware
+2019-04-19 14:09:47,756 INFO 44365 [egg-security] use methodnoallow middleware
+2019-04-19 14:09:47,757 INFO 44365 [egg-security] use noopen middleware
+2019-04-19 14:09:47,758 INFO 44365 [egg-security] use nosniff middleware
+2019-04-19 14:09:47,758 INFO 44365 [egg-security] use xssProtection middleware
+2019-04-19 14:09:47,759 INFO 44365 [egg-security] use xframe middleware
+2019-04-19 14:09:47,759 INFO 44365 [egg-security] use dta middleware
+2019-04-19 14:09:47,760 INFO 44365 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:09:47,767 INFO 44365 [egg:core] dump config after load, 5ms
+2019-04-19 14:09:47,783 INFO 44365 [egg-watcher:application] watcher start success
+2019-04-19 14:09:47,789 INFO 44365 [egg:core] dump config after ready, 4ms
+2019-04-19 14:10:10,820 INFO 44386 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:10:10,860 INFO 44386 [egg-multipart] stream mode enable
+2019-04-19 14:10:10,911 INFO 44386 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:10:10,913 INFO 44386 [egg-security] use csrf middleware
+2019-04-19 14:10:10,914 INFO 44386 [egg-security] use methodnoallow middleware
+2019-04-19 14:10:10,915 INFO 44386 [egg-security] use noopen middleware
+2019-04-19 14:10:10,915 INFO 44386 [egg-security] use nosniff middleware
+2019-04-19 14:10:10,916 INFO 44386 [egg-security] use xssProtection middleware
+2019-04-19 14:10:10,917 INFO 44386 [egg-security] use xframe middleware
+2019-04-19 14:10:10,917 INFO 44386 [egg-security] use dta middleware
+2019-04-19 14:10:10,917 INFO 44386 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:10:10,926 INFO 44386 [egg:core] dump config after load, 5ms
+2019-04-19 14:10:10,939 INFO 44386 [egg-watcher:application] watcher start success
+2019-04-19 14:10:10,945 INFO 44386 [egg:core] dump config after ready, 4ms
+2019-04-19 14:10:32,758 INFO 44410 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:10:32,805 INFO 44410 [egg-multipart] stream mode enable
+2019-04-19 14:10:32,846 INFO 44410 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:10:32,849 INFO 44410 [egg-security] use csrf middleware
+2019-04-19 14:10:32,849 INFO 44410 [egg-security] use methodnoallow middleware
+2019-04-19 14:10:32,849 INFO 44410 [egg-security] use noopen middleware
+2019-04-19 14:10:32,850 INFO 44410 [egg-security] use nosniff middleware
+2019-04-19 14:10:32,850 INFO 44410 [egg-security] use xssProtection middleware
+2019-04-19 14:10:32,851 INFO 44410 [egg-security] use xframe middleware
+2019-04-19 14:10:32,851 INFO 44410 [egg-security] use dta middleware
+2019-04-19 14:10:32,851 INFO 44410 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:10:32,860 INFO 44410 [egg:core] dump config after load, 4ms
+2019-04-19 14:10:32,877 INFO 44410 [egg-watcher:application] watcher start success
+2019-04-19 14:10:32,882 INFO 44410 [egg:core] dump config after ready, 3ms
+2019-04-19 14:10:32,993 INFO 44410 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:12:04,308 INFO 44468 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:12:04,378 INFO 44468 [egg-multipart] stream mode enable
+2019-04-19 14:12:04,433 INFO 44468 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:12:04,437 INFO 44468 [egg-security] use csrf middleware
+2019-04-19 14:12:04,438 INFO 44468 [egg-security] use methodnoallow middleware
+2019-04-19 14:12:04,439 INFO 44468 [egg-security] use noopen middleware
+2019-04-19 14:12:04,440 INFO 44468 [egg-security] use nosniff middleware
+2019-04-19 14:12:04,440 INFO 44468 [egg-security] use xssProtection middleware
+2019-04-19 14:12:04,441 INFO 44468 [egg-security] use xframe middleware
+2019-04-19 14:12:04,441 INFO 44468 [egg-security] use dta middleware
+2019-04-19 14:12:04,441 INFO 44468 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:12:04,450 INFO 44468 [egg:core] dump config after load, 6ms
+2019-04-19 14:12:04,469 INFO 44468 [egg-watcher:application] watcher start success
+2019-04-19 14:12:04,478 INFO 44468 [egg:core] dump config after ready, 5ms
+2019-04-19 14:16:03,158 INFO 44809 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:16:03,196 INFO 44809 [egg-multipart] stream mode enable
+2019-04-19 14:16:03,248 INFO 44809 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:16:03,251 INFO 44809 [egg-security] use csrf middleware
+2019-04-19 14:16:03,252 INFO 44809 [egg-security] use methodnoallow middleware
+2019-04-19 14:16:03,252 INFO 44809 [egg-security] use noopen middleware
+2019-04-19 14:16:03,253 INFO 44809 [egg-security] use nosniff middleware
+2019-04-19 14:16:03,253 INFO 44809 [egg-security] use xssProtection middleware
+2019-04-19 14:16:03,254 INFO 44809 [egg-security] use xframe middleware
+2019-04-19 14:16:03,254 INFO 44809 [egg-security] use dta middleware
+2019-04-19 14:16:03,254 INFO 44809 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:16:03,991 INFO 44809 [egg:core] dump config after load, 6ms
+2019-04-19 14:16:04,006 INFO 44809 [egg-watcher:application] watcher start success
+2019-04-19 14:16:04,013 INFO 44809 [egg:core] dump config after ready, 5ms
+2019-04-19 14:16:46,224 INFO 44861 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:16:46,267 INFO 44861 [egg-multipart] stream mode enable
+2019-04-19 14:16:46,308 INFO 44861 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:16:46,310 INFO 44861 [egg-security] use csrf middleware
+2019-04-19 14:16:46,311 INFO 44861 [egg-security] use methodnoallow middleware
+2019-04-19 14:16:46,311 INFO 44861 [egg-security] use noopen middleware
+2019-04-19 14:16:46,312 INFO 44861 [egg-security] use nosniff middleware
+2019-04-19 14:16:46,312 INFO 44861 [egg-security] use xssProtection middleware
+2019-04-19 14:16:46,312 INFO 44861 [egg-security] use xframe middleware
+2019-04-19 14:16:46,312 INFO 44861 [egg-security] use dta middleware
+2019-04-19 14:16:46,312 INFO 44861 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:16:46,866 INFO 44861 [egg:core] dump config after load, 5ms
+2019-04-19 14:16:46,883 INFO 44861 [egg-watcher:application] watcher start success
+2019-04-19 14:16:46,890 INFO 44861 [egg:core] dump config after ready, 5ms
+2019-04-19 14:17:03,294 INFO 44882 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:17:03,335 INFO 44882 [egg-multipart] stream mode enable
+2019-04-19 14:17:03,373 INFO 44882 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:17:03,375 INFO 44882 [egg-security] use csrf middleware
+2019-04-19 14:17:03,376 INFO 44882 [egg-security] use methodnoallow middleware
+2019-04-19 14:17:03,376 INFO 44882 [egg-security] use noopen middleware
+2019-04-19 14:17:03,377 INFO 44882 [egg-security] use nosniff middleware
+2019-04-19 14:17:03,377 INFO 44882 [egg-security] use xssProtection middleware
+2019-04-19 14:17:03,377 INFO 44882 [egg-security] use xframe middleware
+2019-04-19 14:17:03,378 INFO 44882 [egg-security] use dta middleware
+2019-04-19 14:17:03,378 INFO 44882 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:17:03,961 INFO 44882 [egg:core] dump config after load, 8ms
+2019-04-19 14:17:03,975 INFO 44882 [egg-watcher:application] watcher start success
+2019-04-19 14:17:03,981 INFO 44882 [egg:core] dump config after ready, 4ms
+2019-04-19 14:17:53,061 INFO 44929 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:17:53,108 INFO 44929 [egg-multipart] stream mode enable
+2019-04-19 14:17:53,175 INFO 44929 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:17:53,178 INFO 44929 [egg-security] use csrf middleware
+2019-04-19 14:17:53,179 INFO 44929 [egg-security] use methodnoallow middleware
+2019-04-19 14:17:53,179 INFO 44929 [egg-security] use noopen middleware
+2019-04-19 14:17:53,180 INFO 44929 [egg-security] use nosniff middleware
+2019-04-19 14:17:53,181 INFO 44929 [egg-security] use xssProtection middleware
+2019-04-19 14:17:53,181 INFO 44929 [egg-security] use xframe middleware
+2019-04-19 14:17:53,182 INFO 44929 [egg-security] use dta middleware
+2019-04-19 14:17:53,182 INFO 44929 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:17:53,989 INFO 44929 [egg:core] dump config after load, 5ms
+2019-04-19 14:17:54,005 INFO 44929 [egg-watcher:application] watcher start success
+2019-04-19 14:17:54,013 INFO 44929 [egg:core] dump config after ready, 6ms
+2019-04-19 14:17:54,483 INFO 44929 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:21:18,182 INFO 45042 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:21:18,223 INFO 45042 [egg-multipart] stream mode enable
+2019-04-19 14:21:18,282 INFO 45042 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:21:18,285 INFO 45042 [egg-security] use csrf middleware
+2019-04-19 14:21:18,286 INFO 45042 [egg-security] use methodnoallow middleware
+2019-04-19 14:21:18,286 INFO 45042 [egg-security] use noopen middleware
+2019-04-19 14:21:18,287 INFO 45042 [egg-security] use nosniff middleware
+2019-04-19 14:21:18,288 INFO 45042 [egg-security] use xssProtection middleware
+2019-04-19 14:21:18,288 INFO 45042 [egg-security] use xframe middleware
+2019-04-19 14:21:18,289 INFO 45042 [egg-security] use dta middleware
+2019-04-19 14:21:18,289 INFO 45042 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:21:19,099 INFO 45042 [egg:core] dump config after load, 5ms
+2019-04-19 14:21:19,116 INFO 45042 [egg-watcher:application] watcher start success
+2019-04-19 14:21:19,123 INFO 45042 [egg:core] dump config after ready, 5ms
+2019-04-19 14:21:22,066 INFO 45042 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:22:29,194 INFO 45078 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:22:29,233 INFO 45078 [egg-multipart] stream mode enable
+2019-04-19 14:22:29,271 INFO 45078 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:22:29,273 INFO 45078 [egg-security] use csrf middleware
+2019-04-19 14:22:29,274 INFO 45078 [egg-security] use methodnoallow middleware
+2019-04-19 14:22:29,274 INFO 45078 [egg-security] use noopen middleware
+2019-04-19 14:22:29,275 INFO 45078 [egg-security] use nosniff middleware
+2019-04-19 14:22:29,275 INFO 45078 [egg-security] use xssProtection middleware
+2019-04-19 14:22:29,275 INFO 45078 [egg-security] use xframe middleware
+2019-04-19 14:22:29,276 INFO 45078 [egg-security] use dta middleware
+2019-04-19 14:22:29,276 INFO 45078 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:22:29,798 INFO 45078 [egg:core] dump config after load, 5ms
+2019-04-19 14:22:29,813 INFO 45078 [egg-watcher:application] watcher start success
+2019-04-19 14:22:29,820 INFO 45078 [egg:core] dump config after ready, 4ms
+2019-04-19 14:22:31,195 INFO 45078 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:23:06,022 INFO 45113 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:23:06,061 INFO 45113 [egg-multipart] stream mode enable
+2019-04-19 14:23:06,104 INFO 45113 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:23:06,106 INFO 45113 [egg-security] use csrf middleware
+2019-04-19 14:23:06,106 INFO 45113 [egg-security] use methodnoallow middleware
+2019-04-19 14:23:06,107 INFO 45113 [egg-security] use noopen middleware
+2019-04-19 14:23:06,107 INFO 45113 [egg-security] use nosniff middleware
+2019-04-19 14:23:06,108 INFO 45113 [egg-security] use xssProtection middleware
+2019-04-19 14:23:06,108 INFO 45113 [egg-security] use xframe middleware
+2019-04-19 14:23:06,108 INFO 45113 [egg-security] use dta middleware
+2019-04-19 14:23:06,108 INFO 45113 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:23:06,667 INFO 45113 [egg:core] dump config after load, 5ms
+2019-04-19 14:23:06,683 INFO 45113 [egg-watcher:application] watcher start success
+2019-04-19 14:23:06,689 INFO 45113 [egg:core] dump config after ready, 4ms
+2019-04-19 14:23:07,739 INFO 45113 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:24:27,278 INFO 45157 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:24:27,316 INFO 45157 [egg-multipart] stream mode enable
+2019-04-19 14:24:27,373 INFO 45157 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:24:27,376 INFO 45157 [egg-security] use csrf middleware
+2019-04-19 14:24:27,376 INFO 45157 [egg-security] use methodnoallow middleware
+2019-04-19 14:24:27,377 INFO 45157 [egg-security] use noopen middleware
+2019-04-19 14:24:27,378 INFO 45157 [egg-security] use nosniff middleware
+2019-04-19 14:24:27,378 INFO 45157 [egg-security] use xssProtection middleware
+2019-04-19 14:24:27,379 INFO 45157 [egg-security] use xframe middleware
+2019-04-19 14:24:27,379 INFO 45157 [egg-security] use dta middleware
+2019-04-19 14:24:27,379 INFO 45157 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:24:28,128 INFO 45157 [egg:core] dump config after load, 4ms
+2019-04-19 14:24:28,144 INFO 45157 [egg-watcher:application] watcher start success
+2019-04-19 14:24:28,151 INFO 45157 [egg:core] dump config after ready, 5ms
+2019-04-19 14:24:29,526 INFO 45157 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:25:41,359 INFO 45206 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:25:41,398 INFO 45206 [egg-multipart] stream mode enable
+2019-04-19 14:25:41,454 INFO 45206 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:25:41,457 INFO 45206 [egg-security] use csrf middleware
+2019-04-19 14:25:41,457 INFO 45206 [egg-security] use methodnoallow middleware
+2019-04-19 14:25:41,458 INFO 45206 [egg-security] use noopen middleware
+2019-04-19 14:25:41,459 INFO 45206 [egg-security] use nosniff middleware
+2019-04-19 14:25:41,459 INFO 45206 [egg-security] use xssProtection middleware
+2019-04-19 14:25:41,460 INFO 45206 [egg-security] use xframe middleware
+2019-04-19 14:25:41,460 INFO 45206 [egg-security] use dta middleware
+2019-04-19 14:25:41,460 INFO 45206 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:25:42,240 INFO 45206 [egg:core] dump config after load, 6ms
+2019-04-19 14:25:42,256 INFO 45206 [egg-watcher:application] watcher start success
+2019-04-19 14:25:42,262 INFO 45206 [egg:core] dump config after ready, 4ms
+2019-04-19 14:25:43,182 INFO 45206 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:29:32,964 INFO 45385 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:29:33,003 INFO 45385 [egg-multipart] stream mode enable
+2019-04-19 14:29:33,059 INFO 45385 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:29:33,062 INFO 45385 [egg-security] use csrf middleware
+2019-04-19 14:29:33,063 INFO 45385 [egg-security] use methodnoallow middleware
+2019-04-19 14:29:33,063 INFO 45385 [egg-security] use noopen middleware
+2019-04-19 14:29:33,064 INFO 45385 [egg-security] use nosniff middleware
+2019-04-19 14:29:33,064 INFO 45385 [egg-security] use xssProtection middleware
+2019-04-19 14:29:33,065 INFO 45385 [egg-security] use xframe middleware
+2019-04-19 14:29:33,065 INFO 45385 [egg-security] use dta middleware
+2019-04-19 14:29:33,065 INFO 45385 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:29:33,865 INFO 45385 [egg:core] dump config after load, 6ms
+2019-04-19 14:29:33,880 INFO 45385 [egg-watcher:application] watcher start success
+2019-04-19 14:29:33,887 INFO 45385 [egg:core] dump config after ready, 5ms
+2019-04-19 14:29:46,991 INFO 45407 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:29:47,032 INFO 45407 [egg-multipart] stream mode enable
+2019-04-19 14:29:47,073 INFO 45407 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:29:47,075 INFO 45407 [egg-security] use csrf middleware
+2019-04-19 14:29:47,076 INFO 45407 [egg-security] use methodnoallow middleware
+2019-04-19 14:29:47,076 INFO 45407 [egg-security] use noopen middleware
+2019-04-19 14:29:47,077 INFO 45407 [egg-security] use nosniff middleware
+2019-04-19 14:29:47,077 INFO 45407 [egg-security] use xssProtection middleware
+2019-04-19 14:29:47,078 INFO 45407 [egg-security] use xframe middleware
+2019-04-19 14:29:47,078 INFO 45407 [egg-security] use dta middleware
+2019-04-19 14:29:47,078 INFO 45407 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:29:47,623 INFO 45407 [egg:core] dump config after load, 7ms
+2019-04-19 14:29:47,639 INFO 45407 [egg-watcher:application] watcher start success
+2019-04-19 14:29:47,646 INFO 45407 [egg:core] dump config after ready, 5ms
+2019-04-19 14:29:49,539 INFO 45407 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:30:12,577 INFO 45441 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:30:12,616 INFO 45441 [egg-multipart] stream mode enable
+2019-04-19 14:30:12,655 INFO 45441 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:30:12,657 INFO 45441 [egg-security] use csrf middleware
+2019-04-19 14:30:12,658 INFO 45441 [egg-security] use methodnoallow middleware
+2019-04-19 14:30:12,658 INFO 45441 [egg-security] use noopen middleware
+2019-04-19 14:30:12,659 INFO 45441 [egg-security] use nosniff middleware
+2019-04-19 14:30:12,659 INFO 45441 [egg-security] use xssProtection middleware
+2019-04-19 14:30:12,659 INFO 45441 [egg-security] use xframe middleware
+2019-04-19 14:30:12,659 INFO 45441 [egg-security] use dta middleware
+2019-04-19 14:30:12,659 INFO 45441 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:30:13,195 INFO 45441 [egg:core] dump config after load, 6ms
+2019-04-19 14:30:13,211 INFO 45441 [egg-watcher:application] watcher start success
+2019-04-19 14:30:13,220 INFO 45441 [egg:core] dump config after ready, 6ms
+2019-04-19 14:30:14,280 INFO 45441 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:31:05,646 INFO 45465 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:31:05,688 INFO 45465 [egg-multipart] stream mode enable
+2019-04-19 14:31:05,730 INFO 45465 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:31:05,732 INFO 45465 [egg-security] use csrf middleware
+2019-04-19 14:31:05,733 INFO 45465 [egg-security] use methodnoallow middleware
+2019-04-19 14:31:05,733 INFO 45465 [egg-security] use noopen middleware
+2019-04-19 14:31:05,733 INFO 45465 [egg-security] use nosniff middleware
+2019-04-19 14:31:05,734 INFO 45465 [egg-security] use xssProtection middleware
+2019-04-19 14:31:05,734 INFO 45465 [egg-security] use xframe middleware
+2019-04-19 14:31:05,734 INFO 45465 [egg-security] use dta middleware
+2019-04-19 14:31:05,734 INFO 45465 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:31:06,308 INFO 45465 [egg:core] dump config after load, 7ms
+2019-04-19 14:31:06,320 INFO 45465 [egg-watcher:application] watcher start success
+2019-04-19 14:31:06,329 INFO 45465 [egg:core] dump config after ready, 5ms
+2019-04-19 14:31:16,270 INFO 45484 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:31:16,308 INFO 45484 [egg-multipart] stream mode enable
+2019-04-19 14:31:16,345 INFO 45484 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:31:16,348 INFO 45484 [egg-security] use csrf middleware
+2019-04-19 14:31:16,348 INFO 45484 [egg-security] use methodnoallow middleware
+2019-04-19 14:31:16,348 INFO 45484 [egg-security] use noopen middleware
+2019-04-19 14:31:16,349 INFO 45484 [egg-security] use nosniff middleware
+2019-04-19 14:31:16,349 INFO 45484 [egg-security] use xssProtection middleware
+2019-04-19 14:31:16,350 INFO 45484 [egg-security] use xframe middleware
+2019-04-19 14:31:16,350 INFO 45484 [egg-security] use dta middleware
+2019-04-19 14:31:16,350 INFO 45484 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:31:16,894 INFO 45484 [egg:core] dump config after load, 6ms
+2019-04-19 14:31:16,914 INFO 45484 [egg-watcher:application] watcher start success
+2019-04-19 14:31:16,922 INFO 45484 [egg:core] dump config after ready, 6ms
+2019-04-19 14:31:17,871 INFO 45484 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:31:48,544 INFO 45517 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:31:48,587 INFO 45517 [egg-multipart] stream mode enable
+2019-04-19 14:31:48,629 INFO 45517 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:31:48,632 INFO 45517 [egg-security] use csrf middleware
+2019-04-19 14:31:48,633 INFO 45517 [egg-security] use methodnoallow middleware
+2019-04-19 14:31:48,633 INFO 45517 [egg-security] use noopen middleware
+2019-04-19 14:31:48,634 INFO 45517 [egg-security] use nosniff middleware
+2019-04-19 14:31:48,634 INFO 45517 [egg-security] use xssProtection middleware
+2019-04-19 14:31:48,634 INFO 45517 [egg-security] use xframe middleware
+2019-04-19 14:31:48,635 INFO 45517 [egg-security] use dta middleware
+2019-04-19 14:31:48,635 INFO 45517 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:31:49,176 INFO 45517 [egg:core] dump config after load, 5ms
+2019-04-19 14:31:49,192 INFO 45517 [egg-watcher:application] watcher start success
+2019-04-19 14:31:49,199 INFO 45517 [egg:core] dump config after ready, 5ms
+2019-04-19 14:31:51,365 INFO 45517 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:32:55,581 INFO 45567 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:32:55,621 INFO 45567 [egg-multipart] stream mode enable
+2019-04-19 14:32:55,657 INFO 45567 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:32:55,660 INFO 45567 [egg-security] use csrf middleware
+2019-04-19 14:32:55,660 INFO 45567 [egg-security] use methodnoallow middleware
+2019-04-19 14:32:55,660 INFO 45567 [egg-security] use noopen middleware
+2019-04-19 14:32:55,661 INFO 45567 [egg-security] use nosniff middleware
+2019-04-19 14:32:55,661 INFO 45567 [egg-security] use xssProtection middleware
+2019-04-19 14:32:55,662 INFO 45567 [egg-security] use xframe middleware
+2019-04-19 14:32:55,662 INFO 45567 [egg-security] use dta middleware
+2019-04-19 14:32:55,662 INFO 45567 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:32:56,188 INFO 45567 [egg:core] dump config after load, 5ms
+2019-04-19 14:32:56,204 INFO 45567 [egg-watcher:application] watcher start success
+2019-04-19 14:32:56,212 INFO 45567 [egg:core] dump config after ready, 6ms
+2019-04-19 14:32:58,668 INFO 45567 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:33:18,395 INFO 45593 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:33:18,434 INFO 45593 [egg-multipart] stream mode enable
+2019-04-19 14:33:18,470 INFO 45593 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:33:18,472 INFO 45593 [egg-security] use csrf middleware
+2019-04-19 14:33:18,473 INFO 45593 [egg-security] use methodnoallow middleware
+2019-04-19 14:33:18,473 INFO 45593 [egg-security] use noopen middleware
+2019-04-19 14:33:18,474 INFO 45593 [egg-security] use nosniff middleware
+2019-04-19 14:33:18,474 INFO 45593 [egg-security] use xssProtection middleware
+2019-04-19 14:33:18,474 INFO 45593 [egg-security] use xframe middleware
+2019-04-19 14:33:18,475 INFO 45593 [egg-security] use dta middleware
+2019-04-19 14:33:18,475 INFO 45593 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:33:19,031 INFO 45593 [egg:core] dump config after load, 5ms
+2019-04-19 14:33:19,048 INFO 45593 [egg-watcher:application] watcher start success
+2019-04-19 14:33:19,054 INFO 45593 [egg:core] dump config after ready, 4ms
+2019-04-19 14:33:20,317 INFO 45593 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:33:52,034 INFO 45630 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:33:52,073 INFO 45630 [egg-multipart] stream mode enable
+2019-04-19 14:33:52,110 INFO 45630 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:33:52,112 INFO 45630 [egg-security] use csrf middleware
+2019-04-19 14:33:52,112 INFO 45630 [egg-security] use methodnoallow middleware
+2019-04-19 14:33:52,113 INFO 45630 [egg-security] use noopen middleware
+2019-04-19 14:33:52,113 INFO 45630 [egg-security] use nosniff middleware
+2019-04-19 14:33:52,114 INFO 45630 [egg-security] use xssProtection middleware
+2019-04-19 14:33:52,114 INFO 45630 [egg-security] use xframe middleware
+2019-04-19 14:33:52,115 INFO 45630 [egg-security] use dta middleware
+2019-04-19 14:33:52,115 INFO 45630 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:33:52,663 INFO 45630 [egg:core] dump config after load, 6ms
+2019-04-19 14:33:52,678 INFO 45630 [egg-watcher:application] watcher start success
+2019-04-19 14:33:52,685 INFO 45630 [egg:core] dump config after ready, 5ms
+2019-04-19 14:33:54,307 INFO 45630 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:36:16,292 INFO 45730 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:36:16,331 INFO 45730 [egg-multipart] stream mode enable
+2019-04-19 14:36:16,384 INFO 45730 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:36:16,386 INFO 45730 [egg-security] use csrf middleware
+2019-04-19 14:36:16,387 INFO 45730 [egg-security] use methodnoallow middleware
+2019-04-19 14:36:16,388 INFO 45730 [egg-security] use noopen middleware
+2019-04-19 14:36:16,389 INFO 45730 [egg-security] use nosniff middleware
+2019-04-19 14:36:16,389 INFO 45730 [egg-security] use xssProtection middleware
+2019-04-19 14:36:16,390 INFO 45730 [egg-security] use xframe middleware
+2019-04-19 14:36:16,390 INFO 45730 [egg-security] use dta middleware
+2019-04-19 14:36:16,390 INFO 45730 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:36:17,130 INFO 45730 [egg:core] dump config after load, 6ms
+2019-04-19 14:36:17,146 INFO 45730 [egg-watcher:application] watcher start success
+2019-04-19 14:36:17,153 INFO 45730 [egg:core] dump config after ready, 4ms
+2019-04-19 14:36:19,701 INFO 45730 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:38:19,266 INFO 45832 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:38:19,304 INFO 45832 [egg-multipart] stream mode enable
+2019-04-19 14:38:19,342 INFO 45832 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:38:19,344 INFO 45832 [egg-security] use csrf middleware
+2019-04-19 14:38:19,345 INFO 45832 [egg-security] use methodnoallow middleware
+2019-04-19 14:38:19,345 INFO 45832 [egg-security] use noopen middleware
+2019-04-19 14:38:19,346 INFO 45832 [egg-security] use nosniff middleware
+2019-04-19 14:38:19,346 INFO 45832 [egg-security] use xssProtection middleware
+2019-04-19 14:38:19,346 INFO 45832 [egg-security] use xframe middleware
+2019-04-19 14:38:19,347 INFO 45832 [egg-security] use dta middleware
+2019-04-19 14:38:19,347 INFO 45832 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:38:19,881 INFO 45832 [egg:core] dump config after load, 6ms
+2019-04-19 14:38:19,897 INFO 45832 [egg-watcher:application] watcher start success
+2019-04-19 14:38:19,903 INFO 45832 [egg:core] dump config after ready, 4ms
+2019-04-19 14:38:20,676 INFO 45832 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:42:32,713 INFO 46103 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:42:32,753 INFO 46103 [egg-multipart] stream mode enable
+2019-04-19 14:42:32,814 INFO 46103 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:42:32,817 INFO 46103 [egg-security] use csrf middleware
+2019-04-19 14:42:32,818 INFO 46103 [egg-security] use methodnoallow middleware
+2019-04-19 14:42:32,818 INFO 46103 [egg-security] use noopen middleware
+2019-04-19 14:42:32,819 INFO 46103 [egg-security] use nosniff middleware
+2019-04-19 14:42:32,820 INFO 46103 [egg-security] use xssProtection middleware
+2019-04-19 14:42:32,820 INFO 46103 [egg-security] use xframe middleware
+2019-04-19 14:42:32,821 INFO 46103 [egg-security] use dta middleware
+2019-04-19 14:42:32,821 INFO 46103 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:42:33,641 INFO 46103 [egg:core] dump config after load, 5ms
+2019-04-19 14:42:33,657 INFO 46103 [egg-watcher:application] watcher start success
+2019-04-19 14:42:33,664 INFO 46103 [egg:core] dump config after ready, 4ms
+2019-04-19 14:42:33,728 INFO 46103 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:43:19,347 INFO 46147 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:43:19,390 INFO 46147 [egg-multipart] stream mode enable
+2019-04-19 14:43:19,433 INFO 46147 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:43:19,435 INFO 46147 [egg-security] use csrf middleware
+2019-04-19 14:43:19,436 INFO 46147 [egg-security] use methodnoallow middleware
+2019-04-19 14:43:19,436 INFO 46147 [egg-security] use noopen middleware
+2019-04-19 14:43:19,437 INFO 46147 [egg-security] use nosniff middleware
+2019-04-19 14:43:19,438 INFO 46147 [egg-security] use xssProtection middleware
+2019-04-19 14:43:19,438 INFO 46147 [egg-security] use xframe middleware
+2019-04-19 14:43:19,438 INFO 46147 [egg-security] use dta middleware
+2019-04-19 14:43:19,438 INFO 46147 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:43:20,021 INFO 46147 [egg:core] dump config after load, 6ms
+2019-04-19 14:43:20,036 INFO 46147 [egg-watcher:application] watcher start success
+2019-04-19 14:43:20,043 INFO 46147 [egg:core] dump config after ready, 5ms
+2019-04-19 14:43:20,096 INFO 46147 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:45:13,875 INFO 46209 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:45:13,915 INFO 46209 [egg-multipart] stream mode enable
+2019-04-19 14:45:13,968 INFO 46209 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:45:13,971 INFO 46209 [egg-security] use csrf middleware
+2019-04-19 14:45:13,972 INFO 46209 [egg-security] use methodnoallow middleware
+2019-04-19 14:45:13,973 INFO 46209 [egg-security] use noopen middleware
+2019-04-19 14:45:13,973 INFO 46209 [egg-security] use nosniff middleware
+2019-04-19 14:45:13,974 INFO 46209 [egg-security] use xssProtection middleware
+2019-04-19 14:45:13,974 INFO 46209 [egg-security] use xframe middleware
+2019-04-19 14:45:13,975 INFO 46209 [egg-security] use dta middleware
+2019-04-19 14:45:13,975 INFO 46209 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:45:14,809 INFO 46209 [egg:core] dump config after load, 10ms
+2019-04-19 14:45:14,834 INFO 46209 [egg-watcher:application] watcher start success
+2019-04-19 14:45:14,846 INFO 46209 [egg:core] dump config after ready, 8ms
+2019-04-19 14:45:15,064 INFO 46209 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:46:53,104 INFO 46254 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:46:53,144 INFO 46254 [egg-multipart] stream mode enable
+2019-04-19 14:46:53,183 INFO 46254 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:46:53,185 INFO 46254 [egg-security] use csrf middleware
+2019-04-19 14:46:53,186 INFO 46254 [egg-security] use methodnoallow middleware
+2019-04-19 14:46:53,186 INFO 46254 [egg-security] use noopen middleware
+2019-04-19 14:46:53,186 INFO 46254 [egg-security] use nosniff middleware
+2019-04-19 14:46:53,187 INFO 46254 [egg-security] use xssProtection middleware
+2019-04-19 14:46:53,187 INFO 46254 [egg-security] use xframe middleware
+2019-04-19 14:46:53,187 INFO 46254 [egg-security] use dta middleware
+2019-04-19 14:46:53,187 INFO 46254 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:46:53,720 INFO 46254 [egg:core] dump config after load, 5ms
+2019-04-19 14:46:53,736 INFO 46254 [egg-watcher:application] watcher start success
+2019-04-19 14:46:53,742 INFO 46254 [egg:core] dump config after ready, 4ms
+2019-04-19 14:46:54,874 INFO 46254 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:47:14,409 INFO 46281 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:47:14,447 INFO 46281 [egg-multipart] stream mode enable
+2019-04-19 14:47:14,485 INFO 46281 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:47:14,487 INFO 46281 [egg-security] use csrf middleware
+2019-04-19 14:47:14,487 INFO 46281 [egg-security] use methodnoallow middleware
+2019-04-19 14:47:14,488 INFO 46281 [egg-security] use noopen middleware
+2019-04-19 14:47:14,488 INFO 46281 [egg-security] use nosniff middleware
+2019-04-19 14:47:14,488 INFO 46281 [egg-security] use xssProtection middleware
+2019-04-19 14:47:14,489 INFO 46281 [egg-security] use xframe middleware
+2019-04-19 14:47:14,489 INFO 46281 [egg-security] use dta middleware
+2019-04-19 14:47:14,489 INFO 46281 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:47:15,021 INFO 46281 [egg:core] dump config after load, 5ms
+2019-04-19 14:47:15,037 INFO 46281 [egg-watcher:application] watcher start success
+2019-04-19 14:47:15,043 INFO 46281 [egg:core] dump config after ready, 4ms
+2019-04-19 14:47:18,288 INFO 46281 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:47:42,998 INFO 46309 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:47:43,037 INFO 46309 [egg-multipart] stream mode enable
+2019-04-19 14:47:43,079 INFO 46309 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:47:43,082 INFO 46309 [egg-security] use csrf middleware
+2019-04-19 14:47:43,082 INFO 46309 [egg-security] use methodnoallow middleware
+2019-04-19 14:47:43,083 INFO 46309 [egg-security] use noopen middleware
+2019-04-19 14:47:43,083 INFO 46309 [egg-security] use nosniff middleware
+2019-04-19 14:47:43,084 INFO 46309 [egg-security] use xssProtection middleware
+2019-04-19 14:47:43,084 INFO 46309 [egg-security] use xframe middleware
+2019-04-19 14:47:43,084 INFO 46309 [egg-security] use dta middleware
+2019-04-19 14:47:43,084 INFO 46309 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:47:43,621 INFO 46309 [egg:core] dump config after load, 5ms
+2019-04-19 14:47:43,637 INFO 46309 [egg-watcher:application] watcher start success
+2019-04-19 14:47:43,644 INFO 46309 [egg:core] dump config after ready, 5ms
+2019-04-19 14:47:44,858 INFO 46309 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:48:47,422 INFO 46350 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:48:47,467 INFO 46350 [egg-multipart] stream mode enable
+2019-04-19 14:48:47,525 INFO 46350 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:48:47,527 INFO 46350 [egg-security] use csrf middleware
+2019-04-19 14:48:47,528 INFO 46350 [egg-security] use methodnoallow middleware
+2019-04-19 14:48:47,528 INFO 46350 [egg-security] use noopen middleware
+2019-04-19 14:48:47,529 INFO 46350 [egg-security] use nosniff middleware
+2019-04-19 14:48:47,529 INFO 46350 [egg-security] use xssProtection middleware
+2019-04-19 14:48:47,529 INFO 46350 [egg-security] use xframe middleware
+2019-04-19 14:48:47,530 INFO 46350 [egg-security] use dta middleware
+2019-04-19 14:48:47,530 INFO 46350 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:48:48,153 INFO 46350 [egg:core] dump config after load, 14ms
+2019-04-19 14:48:48,178 INFO 46350 [egg-watcher:application] watcher start success
+2019-04-19 14:48:48,186 INFO 46350 [egg:core] dump config after ready, 6ms
+2019-04-19 14:48:48,317 INFO 46350 [egg-view-nunjucks] loading templates from ["/Users/liwenqiang/Notes/git/view-assets-loader/example/app/view"]
+2019-04-19 14:55:12,172 INFO 46455 [egg:logger] init all loggers with options: {"dir":"/Users/liwenqiang/Notes/git/view-assets-loader/example/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-19 14:55:12,218 INFO 46455 [egg-multipart] stream mode enable
+2019-04-19 14:55:12,278 INFO 46455 [egg-static] starting static serve /public/ -> /Users/liwenqiang/Notes/git/view-assets-loader/example/app/public
+2019-04-19 14:55:12,280 INFO 46455 [egg-security] use csrf middleware
+2019-04-19 14:55:12,281 INFO 46455 [egg-security] use methodnoallow middleware
+2019-04-19 14:55:12,282 INFO 46455 [egg-security] use noopen middleware
+2019-04-19 14:55:12,283 INFO 46455 [egg-security] use nosniff middleware
+2019-04-19 14:55:12,283 INFO 46455 [egg-security] use xssProtection middleware
+2019-04-19 14:55:12,284 INFO 46455 [egg-security] use xframe middleware
+2019-04-19 14:55:12,284 INFO 46455 [egg-security] use dta middleware
+2019-04-19 14:55:12,284 INFO 46455 [egg-security] compose 7 middlewares into one security middleware
+2019-04-19 14:55:13,118 INFO 46455 [egg:core] dump config after load, 5ms
+2019-04-19 14:55:13,132 INFO 46455 [egg-watcher:application] watcher start success
+2019-04-19 14:55:13,138 INFO 46455 [egg:core] dump config after ready, 4ms
